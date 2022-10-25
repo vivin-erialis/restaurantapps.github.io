@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Table Sevice",
+      "description": "Table service adalah suatu sistem pelayanan restoran di mana para tamu duduk di kursi menghadap meja makan, dan kemudian makanan maupun minuman diantarkan, disajikan kepada para tamu tadi. Dalam hal ini yang menyajikan makanan dan minuman bisa Waiter maupun Waitress. Sistem pelayanan restoran menggunakan table service yang terkenal diantaranya adalah: American Service (Sistem Pelayanan Ala Amerika), English Service (Pelayanan Ala Inggris), Service Ala Ritz, French Service (Pelayanan Ala Perancis), Russian Service."      },
+    {
+      "id": "2",
+      "name": "Couter Service",
+      "description": "Counter service adalah suatu sistem pelayanan restoran di mana para tamu yang datang terus duduk di counter. Apabila makanan dan minuman yang dipesannya sudah siap maka akan disajikan kepada tamu tadi di atas counter. Petugas yang menyajikan makanan dan minuman bisa Waiter, Waitress, atau langsung oleh juru masaknya. Pelayanan model ini lebih praktis, hemat tenaga dan waktu." 
+    },
+    {
+      "id": "3",
+      "name": "Self Service",
+      "description": "Self service atau kadang-kadang disebut juga dengan buffet service ialah suatu sistem pelayanan restoran di mana semua makanan secara lengkap (dari hidangan pembuka, soup, hidangan utama, hidangan penutup, dan sebagainya) telah ditata dan diatur dengan rapi di atas meja hidang atau meja prasmanan. Para tamu secara bebas mengambil sendiri hidangannya sesuai dengan selera maupun kesukaannya. Sedangkan untuk minuman panas, seperti teh atau kopi, pada umumnya disajikan kepada tamu oleh petugas."      
+    },
+    {
+      "id": "4",
+      "name": "Buffet Service",
+      "description": "Dalam buffet service tamu mengambil makanan dari meja buffet. Buffet dan penataan makanan di meja dapat bervariasi dari yang sangat sederhana, seperti sup dan salad, hingga buffet yang variatif, seperti yang sering dilihat pada restoran-restoran mewah. Banyak restoran komersial yang membangun reputasinya pada variasi dan beranekaragamnya meja buffet yang mereka tawarkan."      
+    }
+  ]
+}
+  

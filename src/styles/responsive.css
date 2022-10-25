@@ -1,0 +1,129 @@
+.resto{
+  display: grid;
+  grid-template-columns:  1fr;
+  font-size: 17px;
+}
+.info-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 300px) {
+  .resto{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 13px;
+    height: auto;
+    width: 100%;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-satu {
+    padding: 100px 10px;
+  }
+  .search-container {
+    flex-direction: row;
+
+  }
+  .search-container > input {
+    width: 100%;
+  }
+  .search-container > button {
+    width: 50%;
+    height: 30px;
+  }
+  .container-satu {
+    font-size: 14px;
+  }
+  .services {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .resto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+    height: auto;
+    width: 100%;
+  }
+  .resto img{
+    height: 35%;
+  }
+  .container-satu {
+    padding: 100px 10px;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .resto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    height: auto;
+    width: 100%;
+  }
+  .container-satu img {
+    height: auto;
+    width: 100%;
+  }
+  .container-satu {
+    font-size: 17px;
+  }
+  .search-container > button {
+    width: 20%;
+    height: 30px;
+  }
+  .services {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .navbar {
+    background-color: #6D8B74;
+    width: 300px;
+    position: absolute;
+    -webkit-transform: translate(-510px, 0);
+    transform: translate(-510px, 0);
+    transition: transform 0.5s ease-in;
+  }
+  .open {
+    -webkit-transform: translate(-10px, 0);
+    transform: translate(-10px, 0);
+  }
+  .nav-item {
+    display: list-item;
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+  }
+  .name-apps {
+    display: inline;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header-menu {
+    display: none;
+  }
+}
